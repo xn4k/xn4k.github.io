@@ -60,7 +60,7 @@ plugins:
 
 author:
   name   : "Xn4k"
-  avatar : "/assets/images/Pinky.png"
+  avatar : "/assets/images/pinky.png"
   bio    : "My awesome biography constrained to a sentence or two goes here."
   links:
     - label: "Website"
