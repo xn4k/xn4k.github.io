@@ -60,11 +60,15 @@ author:
   name   : "Xn4k"
   avatar : "/assets/images/pinky.png"
   bio    : "Very introverted guy<br>
+            Musician, Mike069<br>
             CTF player, Cyber-security enthusiast<br>
             HackTheBox Rootless"
   location : "Germany"
   email  : "stueckholz@hotmail.com"
   links:
+    - label: "Mike069"
+      icon: "fas fa-fw fa-youtube"
+      url: "https://www.youtube.com/channel/UCCGYiKPz3WEKQ49lk5LZPaQ"
     - label: "HackTheBox"
       icon: "fas fa-fw fa-link"
       url: "https://www.hackthebox.eu/profile/239301"
