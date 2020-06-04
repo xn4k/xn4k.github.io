@@ -92,7 +92,7 @@ footer:
       url: "https://instagram.com/mikeammic069/"
     - label: "HTB Rootless"
       icon: "fab fa-fw fa-link"
-      url: "https://www.hackthebox.eu/home/teams/profile/2608"
+      url: "https://www.hackthebox.eu/teams/profile/2608"
 
 defaults:
   # _posts
