@@ -60,7 +60,8 @@ plugins:
 author:
   name   : "Xn4k"
   avatar : "/assets/images/pinky.png"
-  bio    : "Very introverted guy"
+  bio    : "Very introverted guy,<br>
+            HackTheBox Rootless"
   location : "Germany"
   email  : "stueckholz@hotmail.com"
   links:
