@@ -60,13 +60,13 @@ plugins:
 author:
   name   : "Xn4k"
   avatar : "/assets/images/pinky.png"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  bio    : "Very introverted guy"
   location : "Germany"
   email  : "stueckholz@hotmail.com"
   links:
- #  - label: "Website"
-#     icon: "fas fa-fw fa-link"
-#     url: "https://"
+    - label: "HackTheBox"
+      icon: "fas fa-fw fa-link"
+      url: "https://www.hackthebox.eu/home/users/profile/239301"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook"
       url: "https://www.facebook.com/HazeBunny/"
