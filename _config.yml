@@ -60,7 +60,7 @@ plugins:
 author:
   name   : "Xn4k"
   avatar : "/assets/images/pinky.png"
-  bio    : "Very introverted guy,<br>
+  bio    : "Very introverted guy<br>
             HackTheBox Rootless"
   location : "Germany"
   email  : "stueckholz@hotmail.com"
@@ -80,15 +80,18 @@ author:
 
 footer:
   links:
-    - label: "Twitter"
+    - label: "Facebook"
       icon: "fab fa-fw fa-facebook"
-      url: "https://twitter.com/"
+      url: "https://www.facebook.com/HazeBunny/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/xn4k"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/mikeammic069/"
+    - label: "HTB Rootless"
+      icon: "fab fa-fw fa-link"
+      url: "https://www.hackthebox.eu/home/teams/profile/2608"
 
 defaults:
   # _posts
