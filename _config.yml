@@ -60,14 +60,14 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "Xn4k"
+  name   : <h5>"Xn4k"
   avatar : "/assets/images/pinky.png"
   bio    : "Very introverted guy<br>
             Musician Mike069<br>
             CTF player, Cyber-security enthusiast<br>
             HackTheBox Rootless"
   location : "Germany"
-  email  : "stueckholz@hotmail.com"
+  email  : "stueckholz@hotmail.com"</h5>
   links:
     - label: "Mike069"
       icon: "fas fa-fw fa-youtube"
