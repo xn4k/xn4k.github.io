@@ -1,7 +1,8 @@
 ---
 layout: single
 title: Irked Writeup HackTheBox
-excerpt: "Irked is an easy linux box"
+excerpt: "Irked is an easy linux box from the Platform HackTheBox. This machine was nice
+CVE box, with Steganography part, also including some actions with Metasploit, i hope you will enjoy my first writeup."
 date: 2020-06-19
 classes: wide
 header:
