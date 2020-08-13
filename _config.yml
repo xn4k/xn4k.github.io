@@ -99,8 +99,8 @@ footer:
     - label: "HTB Rootless"
       icon: "fab fa-fw fa-link"
       url: "https://www.hackthebox.eu/teams/profile/2608"
-      - label: "HTB Rootless"
-      icon: "fas fa-music"
+    - label: "HTB Rootless"
+      icon: "fab fa-fw fa-link"
       url: "https://www.hackthebox.eu/teams/profile/2608"
 
 
