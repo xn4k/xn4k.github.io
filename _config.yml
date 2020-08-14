@@ -70,7 +70,7 @@ author:
   email  : "stueckholz@hotmail.com"
   links:
     - label: "Mike069"
-      icon: "fas fa-fw fa-youtube"
+      icon: "fab fa-fw fa-youtube"
       url: "https://www.youtube.com/channel/UCCGYiKPz3WEKQ49lk5LZPaQ"
     - label: "HackTheBox"
       icon: "fas fa-fw fa-link"
@@ -84,11 +84,7 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/mikeammic069/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-youtube"
-      url: "https://www.instagram.com/mikeammic069/"
-      
-      #<span class="iconify" data-icon="fa-solid:home"></span>
+    
 
 footer:
   links:
