@@ -69,7 +69,7 @@ author:
   location : "Germany"
   email  : "stueckholz@hotmail.com"
   links:
-    - label: "Mike069"
+    - label: "Mike 069"
       icon: "fab fa-fw fa-youtube"
       url: "https://www.youtube.com/channel/UCCGYiKPz3WEKQ49lk5LZPaQ"
     - label: "HackTheBox"
