@@ -13,10 +13,10 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: ""
+title: "xn4k"
 #subtitle: xn4k.github.io
 title_separator: "-"
-logo:  /assets/images/heady.png
+logo:  /assets/images/PInky.png
 email: stueckholz@hotmail.com
 description: >- # this means to ignore newlines until "baseurl:"
  CTF and Stuff/Info about Cyber Security, Ethical Hacking xn4k's Page
