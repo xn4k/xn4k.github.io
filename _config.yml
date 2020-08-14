@@ -84,6 +84,9 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/mikeammic069/"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://www.instagram.com/mikeammic069/"
 
 footer:
   links:
@@ -99,9 +102,7 @@ footer:
     - label: "HTB Rootless"
       icon: "fab fa-fw fa-link"
       url: "https://www.hackthebox.eu/teams/profile/2608"
-    - label: "HTB Rootless"
-      icon: "fab fa-fw fa-link"
-      url: "https://www.hackthebox.eu/teams/profile/2608"
+   
 
 
 defaults:
