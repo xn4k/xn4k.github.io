@@ -89,7 +89,7 @@ author:
 footer:
   links:
     - label: "Support me"
-      icon: "fab fa-fw fa-hands-helping"
+      icon: "fab fa-fw fas-hands-helping"
       url: "https://www.buymeacoffee.com/xn4k"
     - label: "Spotify Artist"
       icon: "fab fa-fw fa-spotify"
