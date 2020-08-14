@@ -85,8 +85,10 @@ author:
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/mikeammic069/"
     - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
+      icon: "fab fa-fw fa-solid:home"
       url: "https://www.instagram.com/mikeammic069/"
+      
+      <span class="iconify" data-icon="fa-solid:home"></span>
 
 footer:
   links:
