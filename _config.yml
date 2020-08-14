@@ -88,9 +88,9 @@ author:
 
 footer:
   links:
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook"
-      url: "https://www.facebook.com/HazeBunny/"
+    - label: "Support me"
+      icon: "fab fa-fw fa-hands-helping"
+      url: "https://www.buymeacoffee.com/xn4k"
     - label: "Spotify Artist"
       icon: "fab fa-fw fa-spotify"
       url: "https://open.spotify.com/artist/2FIGJc0DLrOwOdjozjwxcv"
