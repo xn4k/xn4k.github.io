@@ -62,12 +62,13 @@ plugins:
 author:
   name   : "Xn4k"
   avatar : "/assets/images/pinky.png"
-  bio    : "Very introverted guy<br>
-            Musician Mike 069<br>
-            CTF player, Cyber-security enthusiast<br>
-            HackTheBox Rootless, xn4k aka W1nsl0w"
+  bio    : "Coffeine addicted<br>
+            Sometimes introverted<br>
+            Cyber-security enthusiast<br>
+            CTF player, Bug hunter<br>
+            HackTheBox Rootless"
   location : "Germany"
-  email  : "stueckholz@hotmail.com"
+  email  : "mikhail.zhivoderov@outlook.de"
   links:
     - label: "Mike 069"
       icon: "fab fa-fw fa-youtube"
