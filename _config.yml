@@ -17,7 +17,7 @@ title: ""
 #subtitle: xn4k.github.io
 title_separator: "-"
 logo:  /assets/images/heady.png
-email: stueckholz@hotmail.com
+email: mikhail_zhivoderov@outlook.de
 description: >- # this means to ignore newlines until "baseurl:"
  CTF and Stuff/Info about Cyber Security, Ethical Hacking xn4k's Page
 #twitter_username: username
@@ -60,7 +60,7 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "Xn4k"
+  name   : "xn4k"
   avatar : "/assets/images/pinky.png"
   bio    : "Coffeine addicted<br>
             Sometimes introverted<br>
