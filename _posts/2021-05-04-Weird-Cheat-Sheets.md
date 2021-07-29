@@ -218,3 +218,9 @@ function printit ($string) {
 ?> 
 ```
 
+handmade script for nmap from xakep.ru from my russian guy RalfHacker
+```
+#!/bin/bash
+ports=$(nmap -p- --min-rate=500 $1 | grep ^[0-9] | cut -d '/' -f 1 | tr '\n' ',' | sed s/,$//)
+nmap -p$ports -A $1
+```
