@@ -1,9 +1,21 @@
 main:
-  - title: "Posts"
-    url: /posts/
-  - title: "Categories"
-    url: /categories/
-  - title: "Tags"
-    url: /tags/
-  - title: "About"
+  - title: "Start"
+    url: /
+
+  - title: "Blog"
+    url: /blog/
+
+  - title: "Cheatsheets"
+    url: /cheatsheets/
+
+  - title: "Writeups"
+    url: /writeups/
+
+  - title: "Über mich"
     url: /about/
+
+  - title: "Kontakt"
+    url: /kontakt/
+
+  - title: "Impressum"
+    url: /impressum/

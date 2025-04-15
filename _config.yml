@@ -1,63 +1,47 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
 title: ""
-#subtitle: xn4k.github.io
-title_separator: "-"
-logo:  /assets/images/heady.png
 email: zhivoderov.mikhail@outlook.de
-description: >- # this means to ignore newlines until "baseurl:"
- CTF and Stuff/Info about Cyber Security, Ethical Hacking xn4k's Page
-#twitter_username: username
-github_username: xn4k
-minimal_mistakes_skin: dark
-search: true
+description: "CTF, Pentest & Payloads"
+baseurl: ""
+url: "https://xn4k.github.io"
 
-# Build settings
-markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
-# Outputting
-permalink: /:categories/:title/
 
-paginate: 5 # amount of posts to show
-paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-include-cache
+  - jemoji
+  - jekyll-gist
+  - jekyll-paginate-v2
+  - jekyll-feed
+
+
+pagination:
+  enabled: true
+  per_page: 5
+  permalink: /page/:num/
+  title: ":title – Seite :num"
+  sort_reverse: true
+  trail:
+    before: 2
+    after: 2
 
 include:
   - _pages
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      share: true
+      comments: false
 
-# Plugins (previously gems:)
-plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jemoji
-  - jekyll-include-cache
+minimal_mistakes_skin: dark
 
 author:
   name   : "xn4k"
@@ -85,7 +69,7 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/mikeammic069/"
-    
+
 
 footer:
   links:
@@ -101,32 +85,11 @@ footer:
     - label: "HTB Rootless"
       icon: "fas fa-fw fa-book-dead"
       url: "https://www.hackthebox.eu/teams/profile/2608"
-   
 
 
-defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
-  # _pages
-  - scope:
-      path: "_pages"
-      type: pages
-    values:
-      layout: single
-      author_profile: true
+logo:  /assets/images/heady.png
+logo_size: 30px  # Oder 40px, wenn du’s dezenter willst
 
-category_archive:
-  type: liquid
-  path: /categories/
-tag_archive:
-  type: liquid
-  path: /tags/
+
+header:
+  title: "xn4k"
