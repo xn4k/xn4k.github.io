@@ -11,11 +11,11 @@ main:
   - title: "Writeups"
     url: /writeups/
 
-  - title: "Über mich"
+  - title: "About me"
     url: /about/
 
-  - title: "Kontakt"
-    url: /kontakt/
+  - title: "Contact"
+    url: /contact/
 
-  - title: "Impressum"
-    url: /impressum/
+  - title: "Imprint"
+    url: /imprint/

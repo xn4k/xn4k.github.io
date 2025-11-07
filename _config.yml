@@ -46,11 +46,13 @@ minimal_mistakes_skin: dark
 author:
   name   : "xn4k"
   avatar : "/assets/images/pinky.png"
-  bio    : "Coffeine addicted<br>
+  bio    : "More tea than caffeine now<br>
             Sometimes introverted<br>
-            Cyber-security enthusiast<br>
-            CTF player, Bug hunter<br>
-            HackTheBox Rootless"
+            Cybersecurity enthusiast · Dev · Grappler<br>
+            Overthinker, Bug hunter<br>
+            Built things, broke things, fixed most of them<br>
+            Still chasing elegance<br>
+            HackTheBox Rootless<br>"
   location : "Germany"
   email  : "zhivoderov.mikhail@outlook.de"
   links:
