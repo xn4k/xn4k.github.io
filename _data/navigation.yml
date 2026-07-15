@@ -5,8 +5,8 @@ main:
   - title: "Blog"
     url: /blog/
 
-  - title: "IHK"
-    url: /ihk/
+  - title: "Knowledge"
+    url: /knowledge/
 
   - title: "Cheatsheets"
     url: /cheatsheets/
