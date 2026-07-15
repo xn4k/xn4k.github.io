@@ -1,0 +1,13 @@
+{% assign article = include.article | default: page %}
+{% if article.knowledge %}
+<section class="notice--info">
+  <strong>Knowledge Metadata</strong>
+  <ul>
+    <li><strong>Category:</strong> {{ article.knowledge_category | default: "Uncategorized" }}</li>
+    <li><strong>Difficulty:</strong> {{ article.difficulty | default: "Not set" }}</li>
+    <li><strong>Learning Status:</strong> {{ article.learning_status | default: "Not Started" }}</li>
+    <li><strong>Last Reviewed:</strong> {{ article.last_reviewed | default: "Not set" }}</li>
+    <li><strong>Tags:</strong> {% if article.tags and article.tags.size > 0 %}{{ article.tags | join: ", " }}{% else %}None{% endif %}</li>
+  </ul>
+</section>
+{% endif %}

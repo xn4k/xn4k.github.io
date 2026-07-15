@@ -1,0 +1,24 @@
+{% assign source_articles = include.articles | default: site.posts %}
+{% assign knowledge_articles = source_articles | where: "knowledge", true %}
+{% if include.category %}
+  {% assign knowledge_articles = knowledge_articles | where: "knowledge_category", include.category %}
+{% endif %}
+{% assign grouped_articles = knowledge_articles | group_by: "knowledge_category" | sort: "name" %}
+
+{% if knowledge_articles.size == 0 %}
+No knowledge articles found yet.
+{% endif %}
+
+{% for group in grouped_articles %}
+## {{ group.name }}
+{: #{{ group.name | slugify }} }
+
+{% assign sorted_items = group.items | sort: "title" %}
+{% for article in sorted_items %}
+- [{{ article.title }}]({{ article.url | relative_url }})
+  - Difficulty: {{ article.difficulty | default: "Not set" }}
+  - Status: {{ article.learning_status | default: "Not Started" }}
+  - Last reviewed: {{ article.last_reviewed | default: "Not set" }}
+  - Tags: {% if article.tags and article.tags.size > 0 %}{{ article.tags | join: ", " }}{% else %}None{% endif %}
+{% endfor %}
+{% endfor %}
