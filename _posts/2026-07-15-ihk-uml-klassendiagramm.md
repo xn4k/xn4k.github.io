@@ -10,7 +10,7 @@ knowledge: true
 knowledge_category: IHK
 difficulty: Beginner
 learning_status: Learning
-last_reviewed: 2026-07-17
+last_reviewed: 2026-07-15
 ---
 
 Lernnotizen zu UML-Klassendiagrammen für die IHK-Prüfung.
