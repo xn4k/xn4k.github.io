@@ -277,3 +277,15 @@ Bedingungen übersprungen.
 
 
 ## Eigene Beispiele
+
+## Prüfungsrelevanz
+
+Dieses Thema ist Grundlage für:
+
+- Algorithmen
+- Schleifen
+- Funktionen
+- Pseudocode
+- Struktogramme
+- Codeanalyse
+- Fehleranalyse
