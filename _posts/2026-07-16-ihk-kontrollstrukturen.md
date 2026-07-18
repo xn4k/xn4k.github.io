@@ -9,8 +9,8 @@ tags:
 knowledge: true
 knowledge_category: IHK
 difficulty: Beginner
-learning_status: Learning
-last_reviewed: 2026-07-17
+learning_status: Completed
+last_reviewed: 2026-07-18
 ---
 
 # Kontrollstrukturen
@@ -19,7 +19,7 @@ last_reviewed: 2026-07-17
 
 Kontrollstrukturen bestimmen den Ablauf eines Programms. Sie entscheiden, welcher Code ausgeführt wird und welcher nicht.
 
-Mit Kontrollstrukturen können Programme auf unterschiedliche Situationen reagieren und Anweisungen wiederholen.
+Mit Kontrollstrukturen können Programme auf unterschiedliche Situationen reagieren und Anweisungen abhängig von Bedingungen ausführen.
 
 ---
 
@@ -42,13 +42,13 @@ Ausgabe:
 Hallo
 ```
 
-Da `8 > 5` wahr ist, wird der Code innerhalb des `if` ausgeführt.
+Da `8 > 5` wahr ist, wird der Code innerhalb des `if`-Blocks ausgeführt.
 
 ---
 
 # if / else
 
-Mit `else` kann festgelegt werden, was passieren soll, wenn die Bedingung **falsch (`False`)** ist.
+Mit `else` wird festgelegt, was passieren soll, wenn die Bedingung **falsch (`False`)** ist.
 
 ```python
 x = 3
@@ -73,9 +73,9 @@ Da `3 > 5` falsch ist, wird der `else`-Block ausgeführt.
 
 Mit `elif` können weitere Bedingungen geprüft werden.
 
-Das Programm arbeitet die Bedingungen **von oben nach unten** ab.
+Die Bedingungen werden **von oben nach unten** ausgewertet.
 
-Sobald eine Bedingung wahr ist, werden alle weiteren Bedingungen übersprungen.
+Sobald eine Bedingung wahr ist, wird der entsprechende Block ausgeführt und alle weiteren Bedingungen werden übersprungen.
 
 ```python
 x = 7
@@ -96,15 +96,13 @@ Ausgabe:
 B
 ```
 
-Obwohl `7 > 0` ebenfalls wahr ist, wird `C` **nicht** ausgegeben, da bereits die zweite Bedingung erfüllt wurde.
+Obwohl `7 > 0` ebenfalls wahr ist, wird `C` **nicht** ausgegeben, da bereits die vorherige Bedingung erfüllt wurde.
 
 ---
 
 # Mehrere unabhängige if-Anweisungen
 
-Mehrere `if`-Anweisungen sind unabhängig voneinander.
-
-Jede Bedingung wird einzeln geprüft.
+Mehrere `if`-Anweisungen werden unabhängig voneinander geprüft.
 
 ```python
 x = 12
@@ -123,11 +121,11 @@ A
 B
 ```
 
-Beide Bedingungen sind wahr, daher werden beide Blöcke ausgeführt.
+Beide Bedingungen sind wahr und werden deshalb beide ausgeführt.
 
 ---
 
-# Vergleich
+# Unterschied zwischen if/elif/else und mehreren if
 
 ## if / elif / else
 
@@ -148,7 +146,7 @@ Ausgabe:
 B
 ```
 
-Es wird **maximal ein Block** ausgeführt.
+➡️ Es wird **maximal ein Block** ausgeführt.
 
 ---
 
@@ -171,7 +169,7 @@ A
 B
 ```
 
-Es können **mehrere Blöcke** ausgeführt werden.
+➡️ Jede Bedingung wird unabhängig geprüft. Es können mehrere Blöcke ausgeführt werden.
 
 ---
 
@@ -190,10 +188,10 @@ Es können **mehrere Blöcke** ausgeführt werden.
 
 # Ablauf eines if-Statements
 
-1. Variable besitzt einen Wert.
-2. Die Bedingung wird geprüft.
-3. Ergibt die Bedingung `True`, wird der zugehörige Block ausgeführt.
-4. Ergibt sie `False`, wird der nächste `elif` oder `else` geprüft.
+1. Eine Variable besitzt einen Wert.
+2. Die Bedingung wird ausgewertet.
+3. Ergibt die Bedingung `True`, wird der eingerückte Code ausgeführt.
+4. Ergibt die Bedingung `False`, wird der nächste `elif` oder der `else`-Block geprüft.
 
 ---
 
@@ -201,20 +199,20 @@ Es können **mehrere Blöcke** ausgeführt werden.
 
 - `if` prüft eine Bedingung.
 - `else` wird ausgeführt, wenn keine vorherige Bedingung wahr ist.
-- `elif` bedeutet "ansonsten, falls".
+- `elif` bedeutet „ansonsten, falls“.
 - Ein `if`/`elif`/`else`-Block führt **maximal einen** Zweig aus.
 - Mehrere `if`-Anweisungen werden unabhängig voneinander geprüft.
-- Python erkennt Codeblöcke an der Einrückung.
+- Python erkennt Codeblöcke ausschließlich anhand der Einrückung.
 
 ---
 
 # Typische IHK-Fallen
 
-- `elif` mit mehreren `if` verwechseln.
 - `=` und `==` verwechseln.
 - `>` und `>=` verwechseln.
+- `elif` mit mehreren `if` verwechseln.
 - Falsche Einrückung verwenden.
-- Vergessen, dass nach einem erfolgreichen `elif` keine weiteren Bedingungen mehr geprüft werden.
+- Vergessen, dass nach einem erfolgreichen `elif` keine weiteren Bedingungen geprüft werden.
 
 ---
 
@@ -254,33 +252,20 @@ if x > 5:
     print("C")
 ```
 
+Ausgabe:
 
+```
+A
+C
+```
 
-# Zusammenfassung
+---
 
-Kontrollstrukturen steuern den Ablauf eines Programms.
+# Prüfungsrelevanz
 
-Mit `if`, `elif` und `else` können Entscheidungen getroffen werden.
+Kontrollstrukturen gehören zu den wichtigsten Grundlagen der Programmierung und sind regelmäßig Bestandteil der IHK-Abschlussprüfung.
 
-Mehrere `if`-Anweisungen werden unabhängig voneinander ausgeführt, während bei `if`/`elif`/`else` höchstens ein Zweig ausgeführt wird.
-
-Dieses Thema bildet die Grundlage für Schleifen, Funktionen und komplexe Algorithmen und gehört zu den wichtigsten Grundlagen für die IHK-Abschlussprüfung.
-1. if prüft eine Bedingung. Ist sie wahr, läuft der if-Block. Ist sie falsch, kann der else-Block ausgeführt werden.
-2. Ein if-else if-else-Block wird von oben nach unten geprüft. Sobald eine Bedingung wahr ist, werden alle weiteren 
-Bedingungen übersprungen.
-3. 
-| Schreibweise       | Verhalten                                                                           |
-| ------------------ | ----------------------------------------------------------------------------------- |
-| `if / elif / else` | Es wird maximal **ein** Block ausgeführt.                                           |
-| Mehrere `if`       | Jede Bedingung wird unabhängig geprüft. Es können mehrere Blöcke ausgeführt werden. |
-
-
-
-## Eigene Beispiele
-
-## Prüfungsrelevanz
-
-Dieses Thema ist Grundlage für:
+Sie werden unter anderem benötigt für:
 
 - Algorithmen
 - Schleifen
@@ -289,3 +274,43 @@ Dieses Thema ist Grundlage für:
 - Struktogramme
 - Codeanalyse
 - Fehleranalyse
+
+---
+
+# Wiederholungsfragen
+
+1. Was macht ein `if`?
+2. Wann wird ein `else` ausgeführt?
+3. Was ist der Unterschied zwischen `if`/`elif`/`else` und mehreren `if`?
+4. Welche Vergleichsoperatoren gibt es?
+5. Warum ist die Einrückung in Python wichtig?
+
+---
+
+# Lernstatus
+
+**Status:** ✅ Abgeschlossen
+
+## Behandelte Inhalte
+
+- [x] if
+- [x] else
+- [x] elif
+- [x] mehrere unabhängige if-Anweisungen
+- [x] Vergleichsoperatoren
+- [x] typische IHK-Fallen
+- [x] eigene Beispiele
+
+## Nächstes Thema
+
+- [ ] Boolesche Operatoren (`and`, `or`, `not`)
+
+---
+
+# Zusammenfassung
+
+Kontrollstrukturen steuern den Ablauf eines Programms.
+
+Mit `if`, `elif` und `else` können Entscheidungen getroffen werden. Mehrere `if`-Anweisungen werden unabhängig voneinander ausgeführt, während bei `if`/`elif`/`else` höchstens ein Zweig ausgeführt wird.
+
+Dieses Thema bildet die Grundlage für Schleifen, Funktionen und komplexe Algorithmen und gehört zu den wichtigsten Grundlagen der IHK-Abschlussprüfung.
